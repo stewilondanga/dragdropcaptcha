@@ -10,35 +10,35 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
+    <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
           <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
         </a>
-      <a href="https://stewilondanga.github.io/" class="social">
+    <a href="https://stewilondanga.github.io/" class="social">
           <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
         </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
+    <a href="https://twitter.com/stew_ilondanga" class="social">
           <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
         </a>
+  </div>
+
+  <h2>Login</h2>
+
+  <form>
+    <input type="text" class="u-name" placeholder="Username" size="25" />
+    <input type="text" class="p-word" placeholder="Password" size="25" />
+
+    <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <p class="box-text">Drag image x here and click Login</p>
     </div>
 
-    <h2>Login</h2>
+    <div class="images">
+      <img id="drag1" src="http://placehold.it/75x75/FFFFFF" draggable="true" ondragstart="drag(event)" width="75" height="75">
+      <img id="drag2" src="http://placehold.it/75x75/000000" draggable="true" ondragstart="drag(event)" width="75" height="75">
+      <img id="drag2" src="http://placehold.it/75x75/555555" draggable="true" ondragstart="drag(event)" width="75" height="75">
+    </div>
 
-    <form>
-       <input type="text" class="u-name" placeholder="Username" size="25"/>
-       <input type="text" class="p-word" placeholder="Password" size="25"/>
-
-       <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
-         <p class="box-text">Drag image x here and click Login</p>
-       </div>
-
-       <div class="images">
-         <img id="drag1" src="http://placehold.it/75x75/FFFFFF" draggable="true" ondragstart="drag(event)" width="75" height="75">
-         <img id="drag2" src="http://placehold.it/75x75/000000" draggable="true" ondragstart="drag(event)" width="75" height="75">
-         <img id="drag2" src="http://placehold.it/75x75/555555" draggable="true" ondragstart="drag(event)" width="75" height="75">
-      </div>
-
-      <input type="button" class="l-button" value="Login"/>
-    </form>
+    <input type="button" class="l-button" value="Login" />
+  </form>
 
   <section id="contact">
     <div class="overlay">
