@@ -7,10 +7,10 @@ var navigate = (function() {
   });
 })();
 
-/*function allowDrop(ev){
+function allowDrop(ev) {
   ev.preventDefault();
 }
-function drag(ev){
+/*function drag(ev){
   ev.dataTransfer.setData("Text",ev.target.id);
 }
 function drop(ev){
