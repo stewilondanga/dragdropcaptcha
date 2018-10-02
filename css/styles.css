@@ -2,6 +2,12 @@ html {
   background-color: #AEA989;
 }
 
+body {
+  width: 500px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -25,11 +31,7 @@ html {
   height: 1.5em;
 }
 
-body{
-  width:500px;
-  margin:0 auto;
-  font-family:Helvetica, Arial, sans-serif;
-}
+
 h2,
 p{
   color:#fff;
