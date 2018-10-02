@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,48 +21,51 @@ body {
   height: 1.5em;
 }
 
-body {
-  padding: 10px;
+html{
+  background-color:#333;
 }
-
-.ui-state-default {
-  min-height: 45px;
+body{
+  width:500px;
+  margin:0 auto;
+  font-family:Helvetica, Arial, sans-serif;
 }
-
-.sortable div {
-  margin-bottom: 5px;
-  padding: 3px;
+h2,
+p{
+  color:#fff;
 }
-
-#kanban-board {
-  width: 100%;
+.u-name,
+.p-word,
+.l-button{
+  padding:5px;
+  border-radius:5px;
 }
-
-.sortable-wrapper {
-  float: left;
-  margin-left: 10px;
+.u-name{
+  float:left;
+  margin-right: 20px;
 }
-
-.ghost {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-  opacity: 0.4;
-  border-style: dashed;
+.box{
+  clear:both;
+  float:left;
+  width:90px;
+  height:120px;
+  padding:10px;
+  margin-top:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
 }
-
-.dragging {
-  -moz-transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  transform: rotate(-5deg);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+.box-text{
+  font-size:10px;
+  margin:0;
 }
-
-.drag-place-holder {
-  height: 0px !important;
-  margin-top: -5px;
-  overflow: hidden;
-  border-bottom: 2px dashed blue;
+#drag1,
+#drag2,
+#drag3{
+  padding:10px 10px;
+}
+.l-button{
+  clear:both;
+  float:left;
+  margin-top:10px;
 }
 
 .containers {
