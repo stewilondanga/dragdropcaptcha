@@ -23,12 +23,11 @@ body {
   height: 1.5em;
 }
 
-/*
-h2,
-p{
-  color:#fff;
+h2, p {
+  color: #fff;
 }
-.u-name,
+
+/*.u-name,
 .p-word,
 .l-button{
   padding:5px;
