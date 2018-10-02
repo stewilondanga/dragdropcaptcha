@@ -57,13 +57,13 @@ h2, p {
   padding: 10px 10px;
 }
 
-/*.l-button{
-  clear:both;
-  float:left;
-  margin-top:10px;
+.l-button {
+  clear: both;
+  float: left;
+  margin-top: 10px;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
